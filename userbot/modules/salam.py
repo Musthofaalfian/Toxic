@@ -16,7 +16,7 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`KONTOL KONTOL KONTOL!!!`")
     sleep(3)
-    await typew.edit("`DASAR KEPALA KONTOL!!!`")
+    await typew.edit("`DASAR LU KEPALA KONTOL!!!`")
 # Owner @Si_Dian
 
 
@@ -26,7 +26,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(f"**JAKA SEMBUNG BAWA GOLOK**")
     sleep(3)
-    await typew.edit("`NIMBRUNG GOBLOKK!!!`")
+    await typew.edit("`NIMBRUNG LAH GOBLOKK!!!`")
 # Owner @Si_Dian
 
 
@@ -36,7 +36,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(f"**JAKA SEMBUNG BAWA GOLOK**")
     sleep(3)
-    await typew.edit("`NIMBRUNG GOBLOKK!!!`")
+    await typew.edit("`NIMBRUNG LAH GOBLOKK!!!`")
 # Owner @Si_Dian
 
 
@@ -44,9 +44,9 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**Hallo KIMAAKK SAYA {DEFAULTUSER}**")
+    await typew.edit(f"**Hallo Pantek, SAYA {DEFAULTUSER}**")
     sleep(2)
-    await typew.edit("`KONTOLLL.....`")
+    await typew.edit("`ASSALAMU 'ALAIKUM SAYANG.....`")
 # Owner @Si_Dian
 
 
@@ -54,9 +54,9 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**Hallo KIMAKK SAYA {DEFAULTUSER}**")
+    await typew.edit(f"**Hallo Pantek, SAYA {DEFAULTUSER}**")
     sleep(2)
-    await typew.edit("`KONTOLLL.....`")
+    await typew.edit("`ASSALAMU 'ALAIKUM SAYANG.....`")
 # Owner @Si_Dian
 
 
@@ -65,8 +65,8 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
     await typew.edit("`Astaghfirulloh anda berdosa sekali...`")
-    sleep(1)
-    await typew.edit("`Waallaikumsalam Sayang......`")
+    sleep(2)
+    await typew.edit("`Wa'allaikumsalam Sayang......`")
 # Owner @Si_Dian
 
 
@@ -76,7 +76,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Astaghfirulloh anda berdosal sekali...`")
     sleep(1)
-    await typew.edit("`Waallaikumsalam Sayang.....`")
+    await typew.edit("`Wa'allaikumsalam Sayang.....`")
 # Owner @Si_Dian
 
 
