@@ -108,7 +108,7 @@ async def log(log_text):
 @register(outgoing=True, pattern="^.kickme$")
 async def kickme(leave):
     """ Basically it's .kickme command """
-    await leave.edit("GC NYA JELEK ASU CABUT AH KIWW 🐨")
+    await leave.edit("ISINYA JELEK, GAADA JANDA CABUT AH 🚮")
     await leave.client.kick_participant(leave.chat_id, 'me')
 
 
@@ -121,7 +121,7 @@ async def unmute_chat(unm_e):
         await unm_e.edit('`Running on Non-SQL Mode!`')
         return
     unkread(str(unm_e.chat_id))
-    await unm_e.edit("```Unmuted this chat Successfully```")
+    await unm_e.edit("```Jangan Berisik Kau Pantek ```")
     await sleep(2)
     await unm_e.delete()
 
