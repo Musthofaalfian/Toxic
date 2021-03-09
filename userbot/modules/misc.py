@@ -65,7 +65,7 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Shutdown *BOT KAMPANG 🐨*....`")
+    await event.edit("`Shutdown *BOT ANCIENT ⛔️*....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
@@ -76,12 +76,12 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting BOT KAMPANG🐨....`")
+    await event.edit("`Restarting BOT ANCIENT ⛔️....`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTART \n"
-                                        "Bot Meninggoy!")
+                                        "Bot Die See You!")
     await bot.disconnect()
     # Spin a new instance of bot
     execl(sys.executable, sys.executable, *sys.argv)
@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "╭••••••••𖠄••••••••╮🐨╭••••••••𖠄••••••••╮\n \n[┣━•━─[ B🐨T°KAMPANG ]─━•━┫](https://github.com/ManusiaRakitan/Kampang-Bot) \n \n╰••••••••𖠄••••••••╯🐨╰••••••••𖠄••••••••╯\n     \n"
+        " 🌹 Pemilik: [Ancient] (https://t.me/ancientbatavia) \n \n [B⛔️T°ANCIENT] (https://github.com/Musthofaalfian/Kampang-Bot) \n \n BOT-MIX [Leo](https://t.me/leoangkasaaa) & [Lord Koala](https://t.me/manusiarakitann) \n   \n"
     )
 
 
