@@ -145,16 +145,16 @@ async def show_welcome(event):
         return await event.edit("`Running on Non-SQL mode!`")
     cws = get_current_welcome_settings(event.chat_id)
     if not cws:
-        return await event.edit("`Tidak Ada Welcome Yg Di Simpan Di sini..`")
+        return await event.edit("`Tidak Ada Welcome Yg Di Simpan..`")
     elif cws and cws.f_mesg_id:
         msg_o = await event.client.get_messages(entity=BOTLOG_CHATID,
                                                 ids=int(cws.f_mesg_id))
         await event.edit(
-            "`Hmm, Sepertinya Anda Telah Membuat Welcome Di Sini.`")
+            "`Hmm, Anda Telah Membuat Welcome DiSini.`")
         await event.reply(msg_o.message, file=msg_o.media)
     elif cws and cws.reply:
         await event.edit(
-            "`Hmm, Sepertinya Anda Telah Membuat Welcome Di Sini.`")
+            "`Hmm, Anda Telah Membuat Welcome DiSini.`")
         await event.reply(cws.reply)
 
 
@@ -165,9 +165,9 @@ async def del_welcome(event):
     except AttributeError:
         return await event.edit("`Running on Non-SQL mode!`")
     if rm_welcome_setting(event.chat_id) is True:
-        await event.edit("`Welcome Berhasil Di Hapus Dari Group Ini.`")
+        await event.edit("`Welcome Sudah Di Hapus Dari Sini.`")
     else:
-        await event.edit("`Tidak Ada Welcome Disini, Goblok!! ?`")
+        await event.edit("`Tidak Ada Welcome Disini, Ganteng!! ?`")
 
 
 CMD_HELP.update({
