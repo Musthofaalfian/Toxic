@@ -21,7 +21,7 @@ async def get_full_user(event):
         if user.isnumeric():
             user = int(user)
         if not user:
-            await event.edit("`Gabisa Tolol, Tanpa ID`")
+            await event.edit("`Gabisa Ganteng, ID Ngga Ada`")
             return
         if event.message.entities is not None:
             probable_user_mention_entity = event.message.entities[0]
@@ -33,7 +33,7 @@ async def get_full_user(event):
         try:
             user_obj = await event.client.get_entity(user)
         except Exception as err:
-            return await event.edit("`Wahh Ngebug Anjing... Mohon Lapor Ke Koala` @mixiologist", str(err))
+            return await event.edit("`Wahh Ngebug Anjing... Mohon Lapor Ke Siapa` @ancientbatavia", str(err))
     return user_obj, extra
 
 
@@ -54,11 +54,11 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`Kamu Harus Di Global Banned, Karena Kamu Jamet!`")
+        dark = await dc.reply("`Jamet Pantek Harus Di Global Banned, Karna Lu Jamet!`")
     else:
-        dark = await dc.edit("`✒ Global Banned Jamet Segera Di Proses`")
+        dark = await dc.edit("`✒ Global Banned Si Jamet Segera Di Proses`")
     me = await userbot.client.get_me()
-    await dark.edit(f"`✒ Terdeteksi Jamet, Rasakan Dibanned Secara Global Karena Elu Jamet Kontol`")
+    await dark.edit(f"`✒ Terdeteksi Jamet, Rasakan Dibanned Secara Global Karena Lu Jamet Pantek`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await userbot.get_chat()
@@ -76,11 +76,11 @@ async def gben(userbot):
         if not reason:
             reason = "Private"
     except BaseException:
-        return await dark.edit(f"`Wah Ngebug Asu 😂`")
+        return await dark.edit(f"`Wah Ngebug Asu 💥`")
     if user:
         if user.id == 1073848376:
             return await dark.edit(
-                f"`Elu Ga Bisa Gban Gua Asu, Karena Elu Jelek 😈`"
+                f"`Lu Ga Bisa Gban Gua, Karena Elu Ganteng 😍`"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
@@ -99,18 +99,18 @@ async def gben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await dark.edit(f"`✒ Global Banned Menyala Anjeeng 🐨`")
+                await dark.edit(f"`✒ Global Banned Udah Nyala Ganteng`")
             except BaseException:
                 b += 1
     else:
-        await dark.edit(f"`Balas Ke Pesan Kontoll`")
+        await dark.edit(f"`Balas Ke Pesan Pantek`")
     try:
         if gmute(user.id) is False:
-            return await dark.edit(f"**Syntax Ellol! Itu Jamet Udah Lu Gban Tolol.**")
+            return await dark.edit(f"**Syntax Error sat! Si Jamet Udah Lu Gban Tolol.**")
     except BaseException:
         pass
     return await dark.edit(
-        f"**🐨 Baginda:** `{ALIVE_NAME}`\n**❂ Username:** [{user.first_name}](tg://user?id={user.id})\n**❂ Punishment:** `Global Banned`"
+        f"**⛔️ ANCIENT:** `{ALIVE_NAME}`\n**❂ Username:** [{user.first_name}](tg://user?id={user.id})\n**❂ Punishment:** `Global Banned`"
     )
 
 
@@ -120,11 +120,11 @@ async def gunben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`✒ Mengampuni Jamet Tolol Yang Meresahkan`")
+        dark = await dc.reply("`✒ Mengampuni Si Jamet Yang Meresahkan`")
     else:
-        dark = await dc.edit("`✒ Mencabut Hukuman Sedang Di Proses`")
+        dark = await dc.edit("`✒ Sedang Mencabut Hukuman Yang Di Proses Si Pantek`")
     me = await userbot.client.get_me()
-    await dark.edit(f"`Jamet Telah Di Ampuni, Lain Kali Gausah Sok Keras Ya KONTOLLL...`")
+    await dark.edit(f"`Jamet Telah DiAmpuni, Lain Kali Jangan Sok Keras Ya PANTEKKKK...`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await userbot.get_chat()
@@ -163,18 +163,18 @@ async def gunben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, send_messages=True)
                 a += 1
-                await dark.edit(f"`✒ Pengampunan Untuk Jamet... Please Wait... `")
+                await dark.edit(f"`✒ Pengampunan Untuk Si Jamet... Please Wait... `")
             except BaseException:
                 b += 1
     else:
         await dark.edit("`Balas Ke Pesan Kontoll`")
     try:
         if ungmute(user.id) is False:
-            return await dark.edit("**Stres Lu? Dia Ga Pernah Elu Gban Tolol.**")
+            return await dark.edit("**Lu Ngapa ? Dia Ga Pernah Lu Gban GANTENGGG.**")
     except BaseException:
         pass
     return await dark.edit(
-        f"**🐨 Baginda:** `{ALIVE_NAME}`\n**❂ Username:** [{user.first_name}](tg://user?id={user.id})\n**❂ Pengampunan:** `Membatalkan Global Banned`"
+        f"**⛔️ ANCIENT:** `{ALIVE_NAME}`\n**❂ Username:** [{user.first_name}](tg://user?id={user.id})\n**❂ Pengampunan:** `Membatalkan Global Banned`"
     )
 
 
