@@ -17,15 +17,15 @@
 
 # Based on RaphielGang's [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane)
 
-<h2 align="center"><b>BOT: <a href="https://telegram.dog/ancientbatavia">ANCIENT-MIX ░ ⛔️</a></b></h2>
+<h2 align="center"><b>BOT: <a href="https://telegram.dog/ancientbatavia">ANCIENT ░ ⛔️</a></b></h2>
 <br>
 <p align="center">
-   <a href="https://github.com/Musthofaalfian/Kampang-Bot/tree/toxic-kampang"><img src="https://media0.giphy.com/media/Hs0cX9Z3RR77c0MMA7/giphy.gif" alt="BOT-KAMPANG" width=400px></a>
+   <a href="https://github.com/Musthofaalfian/Kampang-Bot/tree/toxic-kampang"><img src="https://telegra.ph/file/910f6953469a061b58590.jpg" alt="BOT-KAMPANG" width=400px></a>
    <br>
    <br>
 </p>
 <h1>ANCIENT-MIX</h1>
-<b>BOT MIX DARI TOXIC KAMPANG 🐨!</b>
+<b>BOT MIX DARI KAMPANG 🐨!</b>
 <br>
 <br>
 
