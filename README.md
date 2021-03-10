@@ -20,7 +20,7 @@
 <h2 align="center"><b>BOT: <a href="https://telegram.dog/ancientbatavia">ANCIENT ░ ⛔️</a></b></h2>
 <br>
 <p align="center">
-   <a href="https://github.com/Musthofaalfian/Kampang-Bot/tree/toxic-kampang"><img src="https://telegra.ph/file/910f6953469a061b58590.jpg" alt="BOT-KAMPANG" width=400px></a>
+   <a href="https://github.com/Musthofaalfian/Kampang-Bot"><img src="https://telegra.ph/file/910f6953469a061b58590.jpg" alt="BOT-KAMPANG" width=400px></a>
    <br>
    <br>
 </p>
@@ -37,9 +37,9 @@
 - [Generate on REPL Click](https://repl.it/@ManusiaRakitan/stringsession#README.md)
 ### Read more
 <details>
-  <summary><b>KLIK DISINI UNTUK TOMLOL DEPLOY ASU</b></summary>
+  <summary><b>DISINI TOMBOL DEPLOY ASW</b></summary>
 
-## CARA DEPLOY? JANGAN MALAS BACA TOLOL 😈
+## CARA DEPLOY? JANGAN MALAS BACA KONTOL
 
 ```
 * **[HEROKU](https://www.heroku.com/) Method** 🔧
@@ -57,7 +57,7 @@
 
 * DENGAN HEROKU:
 <p align="center">
-   <a href = "https://heroku.com/deploy?template=https://github.com/ManusiaRakitan/Kampang-Bot/tree/Kampang"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
+   <a href = "https://heroku.com/deploy?template=https://github.com/Musthofaalfian/Kampang-Bot"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
 <br>
 
