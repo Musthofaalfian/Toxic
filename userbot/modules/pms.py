@@ -27,27 +27,27 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    "    APA LU KAMPANG?\n"
-    f"  MAU GANGGUIN BAGINDA `{DEFAULTUSER}` ?\n"
+    "    APA LU SAYANG?\n"
+    f"  MAU GHOSTINGIN DIA `{DEFAULTUSER}` ?\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
-    f"Gua Babu Nya `{DEFAULTUSER}`\n"
+    f"Gua Budak Nya `{DEFAULTUSER}`\n"
     "╾─────────────────────╼\n\n"
 
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    " Baca Kontol\n"
-    " Gausah Spam Ya Anjeng\n"
+    " Baca Ya Cantik\n"
+    " Gausah Spam Ya Sayang\n"
     " Lu Bandel?\n"
-    " Gua Sentil Biji Peler Lu\n"
-    " Tungguin Aja Ya Ngentot Sampai Baginda\n"
-    f" `{DEFAULTUSER}` Ngebaca Pesan Elu\n"
+    " Gua Emut Pentil TT Lu\n"
+    " Tungguin Aja Ya Ganteng Sampe Tuan\n"
+    f" `{DEFAULTUSER}` Baca Pesan Lu\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
     "╾─────────────────────╼\n"
-    "   😡😡KONTOLLLLL 😡😡\n"
+    "  ✨✨ DUAAAAAARRR ✨✨\n"
     "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n"
-    f"- 🐨Babu Nya `{DEFAULTUSER}`\n"
-    "- DIKENTOT OLEH 🐨Kampang-BOT🐨")
+    f"- 🕵️Budak Nya `{DEFAULTUSER}`\n"
+    "- DIKELOLA OLEH 🎑ANCIENT-MIX🎑")
 # =================================================================
 
 
