@@ -6,11 +6,11 @@ from userbot.events import register
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Muka kalian Burik...`")
+    await typew.edit("`Pantek Woii Jamet...`")
     sleep(3)
-    await typew.edit("`Kayak Jemboot`")
+    await typew.edit("`Kayak Pantek Jan So Keras`")
     sleep(1)
-    await typew.edit("`Muka Gw Gak Burik Kek Kalian`")
+    await typew.edit("`Jangan Sok Pansos Yaa Kalian`")
 # Create by myself @localheart
 
 
@@ -18,11 +18,11 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Muka Gue Burik...`")
+    await typew.edit("`Hai Sayang...`")
     sleep(3)
-    await typew.edit("`Kayak Jemboot`")
+    await typew.edit("`Sayang-Sayang Biji Lu`")
     sleep(1)
-    await typew.edit("`Muka Gw Burik Kek Jembott`")
+    await typew.edit("`Abis Udah Sayang Terus Dianya Ilang`")
 # Create by myself @localheart
 
 
@@ -30,9 +30,9 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Lucinta Luna Berbatang ...`")
+    await typew.edit("`Lu Kok Tolollllll...`")
     sleep(3)
-    await typew.edit("`Tapi Gua sukaa`")
+    await typew.edit("`Gua sukaa Kok`")
     sleep(1)
-    await typew.edit("`I love memek Oplass`")
+    await typew.edit("`Suka Ketololan Lu yang Sangat Tolollll`")
 # Create by myself @localheart
