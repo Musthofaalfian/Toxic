@@ -1,7 +1,7 @@
 {
   "name": "BOT ANCIENT",
   "description": "[BOT ANCIENT] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
-  "logo": "https://telegra.ph/file/910f6953469a061b58590.jpg",
+  "logo": "https://telegra.ph/file/5d0b4ce728f1fd3978570.gif",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Musthofaalfian/Kampang-Bot/tree/toxic-kampang",
+  "repository": "https://github.com/Musthofaalfian/Kampang-Bot/",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
   "success_url": "https://t.me/ancientbatavia",
   "stack": "container",
