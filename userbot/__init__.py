@@ -100,9 +100,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/ManusiaRakitan/Kampang-Bot.git")
+    "https://github.com/Musthofaalfian/Kampang-Bot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Kampang")
+    "UPSTREAM_REPO_BRANCH", "toxic-ampang")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -318,7 +318,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```🐨BOT KAMPANG🐨\nMENYALA ANJEEENG```")
+    await bot.send_message(BOTLOG_CHATID, "```🔥ALHAMDULILLAH🔥\nANCIENT MIX BISA```")
     return
 
 with bot:
@@ -403,7 +403,7 @@ with bot:
                 result = builder.article(
                     "Please Use Only With .help Command",
                     text="{}\nTotal loaded Modules: {}\n               \n🐨 **MODULE INFO KAMPANG** 🐨\n".format(
-                        "🐨BOT KAMPANG🐨 modules helper",
+                        "📍MIX ANCIENT📍 modules helper",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -411,22 +411,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "🐨BOT KAMPANG🐨 Helper",
+                    "📍MIX ANCIENT📍 Helper",
                     text="List of Modules",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "BOT KAMPANG",
+                    "MIX ANCIENT",
                     text="""You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/ManusiaRakitan/Kampang-Bot"),
+                                "https://github.com/Musthofaalfian/Kampang-Bot"),
                             custom.Button.url(
                                 "Support",
-                                "https://t.me/mixiologist")],
+                                "https://t.me/ancientbatavia")],
                     ],
                     link_preview=False,
                 )
