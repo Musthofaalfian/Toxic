@@ -102,7 +102,7 @@ UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
     "https://github.com/Musthofaalfian/Kampang-Bot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "toxic-ampang")
+    "UPSTREAM_REPO_BRANCH", "toxic-kampang")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -166,7 +166,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "KAMPANG-BOT")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "ANCIENT-MIX")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "4.0")
@@ -389,7 +389,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [BOT KAMPANG](https://github.com/ManusiaRakitan/Kampang-Bot) modules helper...\nplease make your own bot, don't use mine 😋")
+                await event.reply("I'm [ANCIENT MIX](https://github.com/Musthofaalfian/Kampang-Bot) modules helper...\nplease make your own bot, don't use mine 😋")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
