@@ -240,7 +240,7 @@ async def amireallyalive(alive):
         f"•➣ **Pყƚԋσɳ**   \n   ➲ `Versi {python_version()}` \n"
         f"•➣ **Vҽɾʂι Kαɱραɳɠ**\n   ➲ `{BOT_VER}` \n"
         f"•➣ **Mσԃυʅҽ**    \n   ➲ `{len(modules)}` \n\n"
-        f"•➣ **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [ANCIENT-Mix BOT](https://github.com/Musthofaalfian/Kampang-Bot)\n **Official: **[Manusia Langit](t.me/joinchat/FbBY9P3Ylcw4MGU1)\n☬ **ѕυρρσят ву:** [Gajelas]() \n \n"
+        f"•➣ **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [ANCIENT-Mix BOT](https://github.com/Musthofaalfian/Kampang-Bot)\n **Official: **[Manusia Langit](t.me/joinchat/FbBY9P3Ylcw4MGU1)\n☬ **ѕυρρσят ву:** [Gajelas](???n) \n \n"
         f"**╚▣╩▣╩▣╩╣𝐍𝐆𝐄𝐍𝐓𝐎𝐓╠╩▣╩▣╩▣╝**")
 
     if ALIVE_LOGO:
