@@ -10,6 +10,6 @@ RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/Musthofaalfian/Kampang-Bot/Toxic-Kampang/x-sql-extended/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/Musthofaalfian/Kampang-Bot/toxic-kampang/requirements.txt
 
 CMD ["python3","-m","userbot"]
