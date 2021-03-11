@@ -100,7 +100,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Musthofaalfian/Kampang-Bot")
+    "https://github.com/Musthofaalfian/Kampang-Bot.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "toxic-kampang")
 
@@ -389,7 +389,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [ANCIENT MIX](https://github.com/Musthofaalfian/Kampang-Bot/toxic-kampang) modules helper...\nplease make your own bot, don't use mine 😋")
+                await event.reply("I'm [ANCIENT MIX](https://github.com/Musthofaalfian/Kampang-Bot) modules helper...\nplease make your own bot, don't use mine 😋")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
@@ -423,7 +423,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/Musthofaalfian/Kampang-Bot/toxic-kampang"),
+                                "https://github.com/Musthofaalfian/Kampang-Bot"),
                             custom.Button.url(
                                 "Support",
                                 "https://t.me/ancientbatavia")],
