@@ -179,7 +179,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/57b5bff10eeeb5110c493.mp4"
+    "ALIVE_LOGO") or "https://telegra.ph/file/910f6953469a061b58590.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -389,7 +389,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [ANCIENT MIX](https://github.com/Musthofaalfian/Kampang-Bot) modules helper...\nplease make your own bot, don't use mine 😋")
+                await event.reply("I'm [ANCIENT MIX](https://github.com/Musthofaalfian/Kampang-Bot/toxic-kampang) modules helper...\nplease make your own bot, don't use mine 😋")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
@@ -402,7 +402,7 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Please Use Only With .help Command",
-                    text="{}\nTotal loaded Modules: {}\n               \n🐨 **MODULE INFO KAMPANG** 🐨\n".format(
+                    text="{}\nTotal loaded Modules: {}\n               \n🕵️ **MODULE INFO ANCIENT** 🕵️\n".format(
                         "📍MIX ANCIENT📍 modules helper",
                         len(dugmeler),
                     ),
@@ -423,7 +423,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/Musthofaalfian/Kampang-Bot"),
+                                "https://github.com/Musthofaalfian/Kampang-Bot/toxic-kampang"),
                             custom.Button.url(
                                 "Support",
                                 "https://t.me/ancientbatavia")],
