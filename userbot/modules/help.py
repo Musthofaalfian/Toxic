@@ -37,7 +37,7 @@ async def help(event):
             string += "`" + str(i)
             string += "`\t🔅 "
         await event.reply(f"•{string}•"
-                          "\nPEPEKKK....")
+                          "\n \n Pantek....")
         await event.reply(f"\n**Ketik Contoh** `.help afk` **Untuk Informasi Modulnya**")
         await asyncio.sleep(1000)
         await event.delete()
