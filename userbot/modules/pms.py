@@ -47,7 +47,7 @@ DEF_UNAPPROVED_MSG = (
     "  ✨✨ DUAAAAAARRR ✨✨\n"
     "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n"
     f"- 🕵️Budak Nya `{DEFAULTUSER}`\n"
-    "- DIKELOLA OLEH 🎑ANCIENT-MIX🎑")
+    "- DIKELOLA OLEH ANCIENT-MIX")
 # =================================================================
 
 
