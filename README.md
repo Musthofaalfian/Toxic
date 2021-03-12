@@ -20,12 +20,12 @@
 <h2 align="center"><b>BOT: <a href="https://telegram.dog/ancientbatavia">ANCIENT ░ ⛔️</a></b></h2>
 <br>
 <p align="center">
-   <a href="https://github.com/Musthofaalfian/Kampang-Bot"><img src="https://telegra.ph/file/910f6953469a061b58590.jpg" alt="BOT-KAMPANG" width=400px></a>
+   <a href="https://github.com/Musthofaalfian/Mix-Kampang"><img src="https://telegra.ph/file/910f6953469a061b58590.jpg" alt="BOT-KAMPANG" width=400px></a>
    <br>
    <br>
 </p>
 <h1>ANCIENT-MIX</h1>
-<b>BOT MIX DARI KAMPANG 🐨!</b>
+<b>🐨 BOT MIX DARI KAMPANG 🐨!</b>
 <br>
 <br>
 
@@ -57,7 +57,7 @@
 
 * DENGAN HEROKU:
 <p align="center">
-   <a href = "https://heroku.com/deploy?template=https://github.com/Musthofaalfian/Kampang-Bot/tree/toxic-kampang"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
+   <a href = "https://heroku.com/deploy?template=https://github.com/Musthofaalfian/Mix-Kampang/tree/toxic-kampang"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
 <br>
 
@@ -78,6 +78,7 @@
 *   [༺αиυвιѕ༻](https://github.com/Dark-Princ3) - X-tra-Telegram
 *   [Sahyam2019](https://github.com/sahyam2019/oub-remix) - oub-remix
 *   [TeamUserge](https://github.com/UsergeTeam/Userge) - Userge
+*   [KOALA](https://github.com/ManusiaRakitan/Kampang-Bot) - Kampang 
 *   AND OTHER
 
 ## License
