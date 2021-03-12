@@ -78,7 +78,7 @@
 *   [༺αиυвιѕ༻](https://github.com/Dark-Princ3) - X-tra-Telegram
 *   [Sahyam2019](https://github.com/sahyam2019/oub-remix) - oub-remix
 *   [TeamUserge](https://github.com/UsergeTeam/Userge) - Userge
-*   [KOALA](https://github.com/ManusiaRakitan/Kampang-Bot) - Kampang 
+*   [KAMPANG](https://github.com/ManusiaRakitan/Kampang-Bot) - Koala 🐨 
 *   AND OTHER
 
 ## License
