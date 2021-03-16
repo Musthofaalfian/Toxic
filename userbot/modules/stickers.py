@@ -32,7 +32,7 @@ KANGING_STR = [
     "Pim Pim Pom!!!\nni Sticker punya aing sekarang xixi",
     "Colong lagi yee kan.....",
     "COLONG TEROSS JAMETTT!!!",
-    "Bolehkah saya colong ni sticker\mau ah colong aja hehe",
+    "Bolehkah saya colong ni sticker\\mau ah colong aja hehe",
     "Colong Sticker NGAPE GA SENENG?.....",
 ]
 
