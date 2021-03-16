@@ -1,7 +1,7 @@
 <p align="center">
     <img alt=Kampang-Bot" src="https://img.shields.io/badge/Kampang%20VERSION-4.+-brightgreen"/>
     <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-Last Day-brightgreen"/>
-    <a href="https://travis-ci.com/ManusiaRakitan/Kampang-Bot.svg?branch=Kampang" /></a>
+    <a href="https://travis-ci.com/Musthofaalfian/Toxic.svg?branch=toxic-kampang" /></a>
     <a href="https://app.codacy.com/gh/ManusiaRakitan/Kampang-Bot/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
     <a href="https://github.com/Musthofaalfian/Toxic"> <img src="https://img.shields.io/github/repo-size/Musthofaalfian/Toxic?logo=github&style=for-the-badge" /></a>
     <a href="https://github.com/Musthofaalfian/Toxic/network/members"> <img src="https://img.shields.io/github/forks/Musthofaalfian/Toxic?logo=github&style=for-the-badge" /></a>
