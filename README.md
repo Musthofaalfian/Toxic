@@ -20,7 +20,7 @@
 <h2 align="center"><b>BOT: <a href="https://telegram.dog/ancientbatavia">ANCIENT ░ ⛔️</a></b></h2>
 <br>
 <p align="center">
-   <a href="https://github.com/Musthofaalfian/Mix-Kampang"><img src="https://telegra.ph/file/910f6953469a061b58590.jpg" alt="BOT-KAMPANG" width=400px></a>
+   <a href="https://github.com/Musthofaalfian/Toxic"><img src="https://telegra.ph/file/910f6953469a061b58590.jpg" alt="BOT-KAMPANG" width=400px></a>
    <br>
    <br>
 </p>
@@ -57,7 +57,7 @@
 
 * DENGAN HEROKU:
 <p align="center">
-   <a href = "https://heroku.com/deploy?template=https://github.com/Musthofaalfian/Mix-Kampang/tree/toxic-kampang"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
+   <a href = "https://heroku.com/deploy?template=https://github.com/Musthofaalfian/Toxic/tree/toxic-kampang"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
 <br>
 
