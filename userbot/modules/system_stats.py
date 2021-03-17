@@ -233,15 +233,15 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╔▣╦▣╦▣╦╣🔥╠╦▣╦▣╦▣╗**\n"
-        f"      **☬ 𝐁𝐎𝐓 𝐄𝐆𝐏𝐘𝐓 ☬** \n\n"
+        f"n\      **☬ 𝐁𝐎𝐓 𝐄𝐆𝐏𝐘𝐓 ☬** \n\n"
         f"•➣ **ƙąɱ℘ąŋɠ**     \n   ➲ `{DEFAULTUSER}` \n"
         f"•➣ **Uʂҽɾɳαɱҽ** \n   ➲ `@{user.username}` \n"
         f"•➣ **Tҽɳɠҽɳƚσƚ** \n   ➲ `Versi {version.__version__}` \n"
         f"•➣ **Pყƚԋσɳ**   \n   ➲ `Versi {python_version()}` \n"
         f"•➣ **Vҽɾʂι Kαɱραɳɠ**\n   ➲ `{BOT_VER}` \n"
         f"•➣ **Mσԃυʅҽ**    \n   ➲ `{len(modules)}` \n\n"
-        f"•➣ **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [ANCIENT-Mix BOT](https://github.com/Musthofaalfian/Mix-Kampang)\n **Official: **[Manusia Langit](t.me/joinchat/FbBY9P3Ylcw4MGU1)\n☬ **ѕυρρσят ву:** [Lord Userbot](t.me/LordUserbot_Group) \n \n"
-        f"**╚▣╩▣╩▣╩╣𝐍𝐆𝐄𝐍𝐓𝐎𝐓╠╩▣╩▣╩▣╝**")
+        f"•➣ -**𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :**_ [ANCIENT-Mix](https://github.com/Musthofaalfian/Toxic)\n **Official: **[Manusia Langit](t.me/joinchat/FbBY9P3Ylcw4MGU1)\n☬ **ѕυρρσят ву:** [Lord Userbot](t.me/LordUserbot_Group) \n \n"
+        f"**╚▣╩▣╩▣╩╣🩸🩸🩸🩸🩸╠╩▣╩▣╩▣╝**")
 
     if ALIVE_LOGO:
         try:
