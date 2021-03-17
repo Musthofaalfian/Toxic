@@ -134,7 +134,7 @@ async def promote(promt):
         pin_messages=True,
     )
 
-    await promt.edit("`Ciyeee Jadi Admin si Anjing`")
+    await promt.edit("`Ciyeee Jadi Admin si Babu`")
     user, rank = await get_user_from_event(promt)
     if not rank:
         rank = "Anak Pantek"  # Just in case.
