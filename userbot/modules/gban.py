@@ -1,4 +1,4 @@
-# Fixed by:koala @mixiologist
+# Fixed by:koala @ancientbatavia
 # Lord Userbot
 
 from userbot import ALIVE_NAME, CMD_HELP
@@ -54,7 +54,7 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`Jamet Pantek Harus Di Global Banned, Karna Lu Jamet!`")
+        dark = await dc.reply("`Jamet Harus Di Global Banned, Karna Lu Jamet!`")
     else:
         dark = await dc.edit("`✒ Global Banned Si Jamet Segera Di Proses`")
     me = await userbot.client.get_me()
@@ -76,9 +76,9 @@ async def gben(userbot):
         if not reason:
             reason = "Private"
     except BaseException:
-        return await dark.edit(f"`Wah Ngebug Asu 💥`")
+        return await dark.edit(f"`Wah Ngebug Asu 🩸`")
     if user:
-        if user.id == 1073848376:
+        if user.id == 1487824370:
             return await dark.edit(
                 f"`Lu Ga Bisa Gban Gua, Karena Elu Ganteng 😍`"
             )
@@ -110,7 +110,7 @@ async def gben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-        f"**⛔️ ANCIENT:** `{ALIVE_NAME}`\n**❂ Username:** [{user.first_name}](tg://user?id={user.id})\n**❂ Punishment:** `Global Banned`"
+        f"**🩸 ANCIENT 🩸:** `{ALIVE_NAME}`\n**❂ Username:** [{user.first_name}](tg://user?id={user.id})\n**❂ Punishment:** `Global Banned`"
     )
 
 
@@ -122,7 +122,7 @@ async def gunben(userbot):
     if not sender.id == me.id:
         dark = await dc.reply("`✒ Mengampuni Si Jamet Yang Meresahkan`")
     else:
-        dark = await dc.edit("`✒ Sedang Mencabut Hukuman Yang Di Proses Si Pantek`")
+        dark = await dc.edit("`✒ Mencabut Hukuman Si Pantek Sedang Di Proses`")
     me = await userbot.client.get_me()
     await dark.edit(f"`Jamet Telah DiAmpuni, Lain Kali Jangan Sok Keras Ya PANTEKKKK...`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
@@ -142,10 +142,10 @@ async def gunben(userbot):
         if not reason:
             reason = "Private"
     except BaseException:
-        return await dark.edit("`Syntax Ellol Anjeng 🚫`")
+        return await dark.edit("`Syntax Ellol Anjeng ✨`")
     if user:
-        if user.id == 1073848376:
-            return await dark.edit("**Gua Kebal Asu, Makanya Ganteng KONTOLL...**")
+        if user.id == 1487824370:
+            return await dark.edit("**Gua Kebal Asu, Makanya Ganteng...**")
         try:
             from userbot.modules.sql_helper.gmute_sql import ungmute
         except BaseException:
@@ -174,7 +174,7 @@ async def gunben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-        f"**⛔️ ANCIENT:** `{ALIVE_NAME}`\n**❂ Username:** [{user.first_name}](tg://user?id={user.id})\n**❂ Pengampunan:** `Membatalkan Global Banned`"
+        f"**🩸 ANCIENT 🩸:** `{ALIVE_NAME}`\n**❂ Username:** [{user.first_name}](tg://user?id={user.id})\n**❂ Pengampunan:** `Membatalkan Global Banned`"
     )
 
 
