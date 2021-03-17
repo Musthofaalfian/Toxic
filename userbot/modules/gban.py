@@ -1,4 +1,4 @@
-# Fixed by:koala @ancientbatavia
+# Fixed by:alfi @ancientbatavia
 # Lord Userbot
 
 from userbot import ALIVE_NAME, CMD_HELP
