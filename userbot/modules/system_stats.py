@@ -233,7 +233,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╔▣╦▣╦▣╦╣🔥╠╦▣╦▣╦▣╗**\n"
-        f"n\      **☬ 𝐁𝐎𝐓 𝐄𝐆𝐏𝐘𝐓 ☬** \n\n"
+        f"n\\      **☬ 𝐁𝐎𝐓 𝐄𝐆𝐏𝐘𝐓 ☬** \n\n"
         f"•➣ **ƙąɱ℘ąŋɠ**     \n   ➲ `{DEFAULTUSER}` \n"
         f"•➣ **Uʂҽɾɳαɱҽ** \n   ➲ `@{user.username}` \n"
         f"•➣ **Tҽɳɠҽɳƚσƚ** \n   ➲ `Versi {version.__version__}` \n"
