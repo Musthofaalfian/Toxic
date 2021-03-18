@@ -24,16 +24,16 @@ from userbot.events import register
 
 
 KANGING_STR = [
-    "Wao.,Pantek STICKER Mu Di COLONG..",
-    "Maling sticker gpp kan mppsssh",
-    "ehh ngentot tikelnya bagos kucolong ah...",
-    "Ini Sticker aku colong yaa\nDUARR PANTEK",
-    "boleh juga ni Sticker\nColong ahh~",
-    "Pim Pim Pom!!!\nni Sticker punya aing sekarang xixi",
+    "Woaa., STICKER Mu Ku COLONG..",
+    "Maling sticker gpp kan hmppssssh",
+    "ehh tikelnya bagus colong ah...",
+    "Ini Sticker aku colong yaa\nDOORR ",
+    "boleh juga ni Sticker\nColong Aja Lahh~",
+    "Pim Pim Pom!!!\nni Sticker punya gue sekarang xixixi",
     "Colong lagi yee kan.....",
-    "COLONG TEROSS JAMETTT!!!",
-    "Bolehkah saya colong ni sticker\\mau ah colong aja hehe",
-    "Colong Sticker NGAPE GA SENENG?.....",
+    "COLONG TEROSS MALING!!!",
+    "Boleh ya gue colong ni sticker\\mau dicolong aja hehe",
+    "Colong Sticker Lu NGAPE GA SENENG?.....",
 ]
 
 
@@ -77,9 +77,9 @@ async def kang(args):
             is_anim = True
             photo = 1
         else:
-            return await args.edit("`File Tidak Didukung BANGSAT!`")
+            return await args.edit("`Filenya Tidak mendukung !`")
     else:
-        return await args.edit("`Gagal Colong Cari Yang Laen Dah!`")
+        return await args.edit("`Colong Cari Yang Laen Deh!`")
 
     if photo:
         splat = args.text.split()
@@ -250,8 +250,8 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            "`Nyolong Sticker SUKSES PANTEK!`"
-            f"\n    🕵️ **[KLIK AJA TOLOL](t.me/addstickers/{packname})** 🕵️\n AKU BANGGA JADI MALING",
+            "`Sticker SUKSES di Colong!`"
+            f"\n    🕵️  **[KLIK AJA TOLOL](t.me/addstickers/{packname})** 🕵️ \n \n AKU BANGGA JADI MALING",
             parse_mode="md",
         )
 
