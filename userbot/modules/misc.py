@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        " 🩸 Pemilik 🩸: [Anc📍ent](t.me/ancientbatavia) \n \n [B🩸T ANCIENT](https://github.com/Musthofaalfian/Toxic) \n \n BOT-MIX [Lord Koala](t.me/manusiarakitann) \n \n [Lord Userbot](t.me/LordUserbot_Group) \n   \n"
+        " 🩸 Pemilik 🩸: [Anc📍ent](t.me/ancientbatavia) \n \n \n \n [B🩸T ANCIENT](https://github.com/Musthofaalfian/Toxic) \n \n BOT-MIX [Lord Koala](t.me/manusiarakitann) \n \n [Lord Userbot](t.me/LordUserbot_Group) \n   \n"
     )
 
 
@@ -183,7 +183,7 @@ async def okgoogle(img):
         try:
             image = Image.open(photo)
         except OSError:
-            await img.edit('`Gambar tidak di dukung, Cari yg lain!!.`')
+            await img.edit('`Gambar tidak didukung, Cari saja yg lain !!.`')
             return
         name = "okgoogle.png"
         image.save(name, "PNG")
