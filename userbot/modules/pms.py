@@ -27,26 +27,26 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    "    APA LU SAYANG?\n"
-    f"  MAU GHOSTINGIN DIA `{DEFAULTUSER}` ?\n"
+    "    APA LU SAYANG !!!\n"
+    f"  MAU GANGGUIN PRINCE`{DEFAULTUSER}` ?\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
-    f"Gua Budak Nya `{DEFAULTUSER}`\n"
+    f"Gua Ini Assistnya `{DEFAULTUSER}`\n"
     "╾─────────────────────╼\n\n"
 
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    " Baca Ya Cantik\n"
-    " Gausah Spam Ya Sayang\n"
+    " Baca Ya Ganteng\n"
+    " Gausah Di Spam Ya Ganteng\n"
     " Lu Bandel?\n"
     " Gua Emut Pentil TT Lu\n"
-    " Tungguin Aja Ya Ganteng Sampe Tuan\n"
-    f" `{DEFAULTUSER}` Baca Pesan Lu\n"
+    " Tungguin Aja Ya Ganteng, Sampe \n"
+    f" `{DEFAULTUSER}` Baca Pesannya\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
     "╾─────────────────────╼\n"
     "  ✨✨ DUAAAAAARRR ✨✨\n"
     "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n"
-    f"- 🕵️Budak Nya `{DEFAULTUSER}`\n"
+    f"- 🕵️ Assistant `{DEFAULTUSER}`\n"
     "- DIKELOLA OLEH ANCIENT-MIX")
 # =================================================================
 
@@ -246,9 +246,9 @@ async def approvepm(apprvpm):
     try:
         approve(uid)
     except IntegrityError:
-        return await apprvpm.edit("`OK, Pesan Telah Diterima..`")
+        return await apprvpm.edit("`OK, Pesan Sudah Diterima..`")
 
-    await apprvpm.edit(f"[{name0}](tg://user?id={uid}) `OK, Pesan Telah Diterima..`")
+    await apprvpm.edit(f"[{name0}](tg://user?id={uid}) `OK, Pesan Sudah Diterima..`")
     await apprvpm.delete(getmsg)
     await message.delete()
 
