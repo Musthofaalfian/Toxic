@@ -36,7 +36,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(f"**JAKA SEMBUNG BAWA GOLOK**")
     sleep(3)
-    await typew.edit("`NIMBRUNG GOBLOKK!!!`")
+    await typew.edit("`NIMBRUNG ATUH BLOKK!!!`")
 # Owner @Si_Dian
 
 
@@ -76,7 +76,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Astaghfirulloh anda berdosal sekali Yah...`")
     sleep(1)
-    await typew.edit("`Wa'allaikumsalam Sayang.....`")
+    await typew.edit("`وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`")
 # Owner @Si_Dian
 
 
