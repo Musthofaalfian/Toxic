@@ -28,7 +28,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 DEF_UNAPPROVED_MSG = (
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
     "    APA LU SAYANG !!!\n"
-    f"  MAU GANGGUIN PRINCE`{DEFAULTUSER}` ?\n"
+    f"  MAU GANGGUIN PRINCE   `{DEFAULTUSER}` ?\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
     f"Gua Ini Assistnya `{DEFAULTUSER}`\n"
@@ -40,7 +40,7 @@ DEF_UNAPPROVED_MSG = (
     " Lu Bandel?\n"
     " Gua Emut Pentil TT Lu\n"
     " Tungguin Aja Ya Ganteng, Sampe \n"
-    f" `{DEFAULTUSER}` Baca Pesannya\n"
+    f" `{DEFAULTUSER}` Baca Dulu Pesannya\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
     "╾─────────────────────╼\n"
