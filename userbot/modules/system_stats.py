@@ -233,14 +233,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╔▣╦▣╦▣╦╣🔥╠╦▣╦▣╦▣╗**\n"
-        f"\\      **☬ 𝐁𝐎𝐓 𝐄𝐆𝐏𝐘𝐓 ☬** \n\n"
+        f"       **☬ 𝐁𝐎𝐓 𝐄𝐆𝐏𝐘𝐓 ☬** \n\n"
         f"•✣ **ᴀ ɴ ᴄ ɪ ᴇ ɴ ᴛ   ᴍɪx   ᴛᴏxɪᴄ**     \n   ➺ `{DEFAULTUSER}` \n"
         f"•✣ **ᴜ s ᴇ ʀ ɴ ᴀ ᴍ ᴇ** \n   ➺ `@{user.username}` \n"
         f"•✣ **ᴛ ᴇ ʟ ᴇ ᴛ ʜ ᴏ ɴ** \n   ➺ `Versi {version.__version__}` \n"
         f"•✣ **ᴘ ʏ ᴛ ʜ ᴏ ɴ**   \n   ➺ `Versi {python_version()}` \n"
         f"•✣ **ᴠ ᴇ ʀ s ɪ   ᴀ ɴ ᴄ ɪ ᴇ ɴ ᴛ**\n   ➺ `{BOT_VER}` \n"
         f"•✣ **ᴍ ᴏ ᴅ ᴜ ʟ ᴇ**    \n   ➺ `{len(modules)}` \n\n"
-        f"•✣ -**𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :**_ [ANCIENT-Mix](https://github.com/Musthofaalfian/Toxic)\n **Official: **[Lord Userbot](t.me/Lorduserbot_group)\n☬ **ѕυρρσят ву:** [𝖆𝖑𝖋𝖎](t.me/Ancientbatavia) \n \n"
+        f"•✣ _**𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :**_ [ANCIENT-Mix](https://github.com/Musthofaalfian/Toxic)\n **Official: **[Lord Userbot](t.me/Lorduserbot_group)\n☬ **ѕυρρσят ву:** [𝖆𝖑𝖋𝖎](t.me/Ancientbatavia) \n \n"
         f"**╚▣╩▣╩▣╩╣🩸 🩸 🩸╠╩▣╩▣╩▣╝**")
 
     if ALIVE_LOGO:
