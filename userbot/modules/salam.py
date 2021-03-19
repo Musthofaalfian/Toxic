@@ -40,7 +40,7 @@ async def typewriter(typew):
 # Owner @Si_Dian
 
 
-@register(outgoing=True, pattern='^P(?: |$)(.*)')
+@register(outgoing=True, pattern='^Pe(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
