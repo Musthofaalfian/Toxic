@@ -46,7 +46,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(f"**Hallo, Gue {DEFAULTUSER} Salken**")
     sleep(2)
-    await typew.edit("`ASSALAMU 'ALAIKUM Dulu Yakan.....`")
+    await typew.edit("`Assalamu'alaikum Dulu Yakan.....`")
 # Owner @Si_Dian
 
 
@@ -56,7 +56,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(f"**Hallo Guys, {DEFAULTUSER} Masih Disini**")
     sleep(2)
-    await typew.edit("`ASSALAMU 'ALAIKUM Ganteng.....`")
+    await typew.edit("`Assalamu'alaikum Ganteng.....`")
 # Owner @Si_Dian
 
 
@@ -74,7 +74,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`Astaghfirulloh anda berdosal sekali Yah...`")
+    await typew.edit("`Astaghfirulloh anda berdosa sekali Yah...`")
     sleep(1)
     await typew.edit("`وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`")
 # Owner @Si_Dian
@@ -82,8 +82,8 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "salam":
-    "`P`\
+    "`P atau p`\
 \nUsage: Untuk Memberi Hujatan.\
-\n\n`L`\
+\n\n`L atau l`\
 \nUsage: Untuk Menjawab Salam."
 })
