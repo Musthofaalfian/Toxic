@@ -34,5 +34,5 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`Gua sukaa Kok`")
     sleep(1)
-    await typew.edit("`Suka Kegalakan Lu, Tapi Kok Sangat Goblokkk`")
+    await typew.edit("`Suka Kegalakan Lu, Tapi Kok Sangat Bodohhh`")
 # Create by myself @localheart
