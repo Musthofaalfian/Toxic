@@ -1,3 +1,8 @@
+# yang hapus credit anak babi , cape lah aku port
+# frm ultroid plugs thanks
+# Port by: Koala @manusiarakitan
+
+import cv2
 import os
 from userbot.events import register
 from userbot import CMD_HELP
