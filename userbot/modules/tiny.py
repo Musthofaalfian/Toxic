@@ -1,4 +1,3 @@
-
 import os
 from userbot.events import register
 from userbot import CMD_HELP
@@ -80,5 +79,5 @@ async def ultiny(event):
 CMD_HELP.update(
     {
         "tiny": ".tiny\
-    \nTiny tiny lapyuuuu."
+    \nKecilin Tikel biar Ga gede."
     })
