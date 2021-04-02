@@ -49,9 +49,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"   ⫸ 𝙱𝙸𝙹𝙸 𝙿𝙴𝙻𝙴𝚁 🍳 `%sms` \n"
-                    f"**𝙼𝙴𝙻𝙴𝙳𝚄𝙶** "
-
-                    f"\n ⫸『`{ALIVE_NAME}`』 \n" % (duration))
+                    f"\n⫸**『𝙼𝙴𝙻𝙴𝙳𝚄𝙶』** \n" % (duration))
 
 
 @register(outgoing=True, pattern='^knt(?: |$)(.*)')
