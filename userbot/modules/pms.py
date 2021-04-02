@@ -27,11 +27,10 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    "   WELCOME IN THE HELL !!!!!\n"
-    f"  MAU GANGGUIN PRINCE  `{DEFAULTUSER}` ?\n"
+    "   **WELCOME IN THE HELL !!!!!**\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
-    f"**Spam then You Get a BAN {DEFAULTUSER}**\n"
+    f"**Spam then You Get a BAN** '{DEFAULTUSER}' \n"
     "╾─────────────────────╼\n\n"
 
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
@@ -44,8 +43,7 @@ DEF_UNAPPROVED_MSG = (
 
     "╾─────────────────────╼\n"
     "  ✨✨ 𝐀𝐍𝐂𝐈𝐄𝐍𝐓 ✨✨\n"
-    "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n"
-    "- DIKELOLA OLEH ANCIENT-MIX")
+    "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n" )
 # =================================================================
 
 
