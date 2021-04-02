@@ -30,15 +30,15 @@ DEF_UNAPPROVED_MSG = (
     "   **WELCOME IN THE HELL !!!!!**\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
-    f"**Spam then You Get a BAN** '{DEFAULTUSER}' \n"
+    f" **Spam then You Get a BAN** {DEFAULTUSER} \n"
     "╾─────────────────────╼\n\n"
 
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    " Gausah Di Spam Ya Ganteng\n"
-    " Lu Bandel??\n"
-    " Gua Emut Pentil TT Lu\n"
-    " Tungguin Dulu Ya, Sampe \n"
-    f" `{DEFAULTUSER}` Terima Pesannya!!!!\n"
+    "  Gausah Di Spam Ya Ganteng\n"
+    "  Lu Bandel??\n"
+    "  Gua Emut Pentil TT Lu\n"
+    "  Tungguin Dulu Ya, Sampe \n"
+    f"  `{DEFAULTUSER}` Terima Pesannya!!!!\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
     "╾─────────────────────╼\n"
