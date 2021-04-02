@@ -48,7 +48,7 @@ async def pingme(pong):
     await pong.edit("**𝐒𝐈𝐀𝐏 𝐌𝐄𝐍𝐔𝐌𝐁𝐔𝐊 𝐏𝐄𝐏𝐄𝐊 𝐏𝐀𝐍𝐓𝐄𝐊**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"   ⫸ 𝙱𝙸𝙹𝙸 𝙿𝙴𝙻𝙴𝚁 🍳 `%sms` \n"
+    await pong.edit(f"   ⫸ 𝙱𝙸𝙹𝙸 𝙿𝙴𝙻𝙴𝚁 🍳 `%sms`"
                     f"\n⫸**『𝙼𝙴𝙻𝙴𝙳𝚄𝙶』** \n" % (duration))
 
 
@@ -58,7 +58,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(f"**SUSU KENTAL**")
     sleep(3)
-    await typew.edit("`Kental Manis ? Itu SUSU APA KEJU!!!`")
+    await typew.edit("`Kental Manis ? Itu SUSU APA KAMU!!!`")
     sleep(3)
     await typew.edit("`SUSU SAYA SUSU BENDERA!!!`")
 # Owner @Si_Dian
