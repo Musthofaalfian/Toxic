@@ -110,7 +110,7 @@ async def gben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-        f"**🩸 ANCIENT 🩸:** `{ALIVE_NAME}`\n**⚰️ Username: ⚰️** [{user.first_name}](tg://user?id={user.id})\n**⚰️ Punishment:⚰️** `Global Banned`"
+        f"**🩸 ANCIENT  🩸 :** `{ALIVE_NAME}`\n**⚰️ Username ⚰️:** [{user.first_name}](tg://user?id={user.id})\n**⚰️ Hukuman  ⚰️:** `Global Banned`"
     )
 
 
