@@ -42,7 +42,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Hai Perkenalkan Namaku {ALIVE_NAME}`")
+    await typew.edit(f"`Hai Perkenalkan Namaku {DEFAULTUSER}`")
     sleep(3)
     await typew.edit("`Maaf Baru Nimbrung`")
     sleep(1)
