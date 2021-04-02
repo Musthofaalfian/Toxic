@@ -240,7 +240,6 @@ async def amireallyalive(alive):
         f"•✣ **ᴘ ʏ ᴛ ʜ ᴏ ɴ**   \n   ➺ `Versi {python_version()}` \n"
         f"•✣ **ᴠ ᴇ ʀ s ɪ   ᴀ ɴ ᴄ ɪ ᴇ ɴ ᴛ**\n   ➺ `{BOT_VER}` \n"
         f"•✣ **ᴍ ᴏ ᴅ ᴜ ʟ ᴇ**    \n   ➺ `{len(modules)}` \n\n"
-        f"•✣ **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 :** [ANCIENT-Mix](https://github.com/Musthofaalfian/Toxic)\n 🩸 **Official:** 🩸 [Lord Userbot](t.me/Lorduserbot_group)\n 🩸 **ѕυρρσят ву:** 🩸 [𝖆𝖑𝖋𝖎](t.me/Ancientbatavia) \n \n"
         f"**╚▣╩▣╩▣╩╣🩸 🩸 🩸╠╩▣╩▣╩▣╝**")
 
     if ALIVE_LOGO:
