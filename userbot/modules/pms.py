@@ -27,26 +27,24 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    "    APA LU SAYANG !!!\n"
-    f"  MAU GANGGUIN PRINCE   `{DEFAULTUSER}` ?\n"
+    "   WELCOME IN THE HELL !!!!!\n"
+    f"  MAU GANGGUIN PRINCE  `{DEFAULTUSER}` ?\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
-    f"Gua Ini Assistnya `{DEFAULTUSER}`\n"
+    f"**Spam then You Get a BAN {DEFAULTUSER}**\n"
     "╾─────────────────────╼\n\n"
 
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    " Baca Ya Ganteng\n"
     " Gausah Di Spam Ya Ganteng\n"
-    " Lu Bandel?\n"
+    " Lu Bandel??\n"
     " Gua Emut Pentil TT Lu\n"
-    " Tungguin Aja Ya Ganteng, Sampe \n"
-    f" `{DEFAULTUSER}` Baca Dulu Pesannya\n"
+    " Tungguin Dulu Ya, Sampe \n"
+    f" `{DEFAULTUSER}` Terima Pesannya!!!!\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
     "╾─────────────────────╼\n"
-    "  ✨✨ DUAAAAAARRR ✨✨\n"
+    "  ✨✨ 𝐀𝐍𝐂𝐈𝐄𝐍𝐓 ✨✨\n"
     "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n"
-    f"- 🕵️ Assistant `{DEFAULTUSER}`\n"
     "- DIKELOLA OLEH ANCIENT-MIX")
 # =================================================================
 
