@@ -61,10 +61,10 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**Off 🩸 !**\nSaya SIBUK ...\
+        await afk_e.edit(f"**Off !!!**\nSaya SIBUK ...\
         \nAlasan: `{string}`")
     else:
-        await afk_e.edit("**Off 🩸 !**\nSaya SIBUK ...")
+        await afk_e.edit("**Off !!!**\nSaya SIBUK ...")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + ""))
     else:
@@ -76,7 +76,7 @@ async def set_afk(afk_e):
     raise StopPropagation
 
 
-@register(outgoing=True)
+@register(outgoing=True, pattern=r"^\.unafk(?: |$)(.*)", disable_errors=True)
 async def type_afk_is_not_true(notafk):
     """ This sets your status as not afk automatically when you write something while being afk """
     global ISAFK
@@ -165,7 +165,7 @@ async def mention_afk(mention):
                 afk_since = f"`{int(seconds)}s`"
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply(f"Saya SIBUK {afk_since} Yg Lalu.\
+                    await mention.reply(f"Saya Sibuk {afk_since} Yg Lalu.\
                         \nGejala: `{AFKREASON}`")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
@@ -174,8 +174,8 @@ async def mention_afk(mention):
             elif mention.sender_id in USERS:
                 if USERS[mention.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await mention.reply(f"I'm still AFK since {afk_since}.\
-                            \nReason: `{AFKREASON}`")
+                        await mention.reply(f"Saya Sibuk {afk_since} Yg Lalu.\
+                            \nGejala: `{AFKREASON}`")
                     else:
                         await mention.reply(str(choice(AFKSTR)))
                     USERS[mention.sender_id] = USERS[mention.sender_id] + 1
@@ -264,8 +264,10 @@ async def afk_on_pm(sender):
 
 CMD_HELP.update({
     "afk":
-    "`.afk` [Optional Reason]\
+    ">`.afk` [Optional Reason]\
 \nUsage: Sets you as afk.\nReplies to anyone who tags/PM's \
-you telling them that you are AFK(reason).\n\nSwitches off AFK when you type back anything, anywhere.\
+you telling them that you are AFK(reason)."
+"\n\nSwitches off Afk" "\n\n>`.unafk`"
+        "\nUsage: Switches you off from AFK mode", anywhere.\
 "
 })
