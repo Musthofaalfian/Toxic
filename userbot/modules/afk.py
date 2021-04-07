@@ -268,6 +268,5 @@ CMD_HELP.update({
 \nUsage: Sets you as afk.\nReplies to anyone who tags/PM's \
 you telling them that you are AFK(reason)."
     "\n\nSwitches off Afk" "\n\n>`.unafk`"
-        "\nUsage: Switches you off from AFK mode", anywhere.
-    "
+        "\nUsage: Switches you off from AFK mode, anywhere."
 })
