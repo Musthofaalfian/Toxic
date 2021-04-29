@@ -454,13 +454,13 @@ async def ungmoot(un_gmute):
         return
 
     # If pass, inform and start ungmuting
-    await un_gmute.edit("```Ungmuting...```")
+    await un_gmute.edit("```Ungmute dulu...```")
 
     if ungmute(user.id) is False:
         await un_gmute.edit("`Error! User probably not gmuted.`")
     else:
         # Inform about success
-        await un_gmute.edit("```Ungmuted Successfully```")
+        await un_gmute.edit("```Laen Kali Jangan tengil```")
         await sleep(3)
         await un_gmute.delete()
 
@@ -500,9 +500,9 @@ async def gspider(gspdr):
         await gspdr.edit("`Error! User probably already gmuted.\nRe-rolls the tape.`")
     else:
         if reason:
-            await gspdr.edit(f"`Globally taped!`\nReason: {reason}")
+            await gspdr.edit(f"`Berisik Pantekkk!`\nReason: {reason}")
         else:
-            await gspdr.edit("`Globally taped!`")
+            await gspdr.edit("`Diam dulu Pantekkkk!`")
 
         if BOTLOG:
             await gspdr.client.send_message(
