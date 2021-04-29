@@ -18,14 +18,14 @@ async def insta(event):
         return
     reply_message = await event.get_reply_message()
     if not reply_message.text:
-        await event.edit("`Link Ny Mana Njing?.`")
+        await event.edit("`Link Ny Mana ?.`")
         return
     chat = "@SaveAsbot"
     reply_message.sender
     if reply_message.sender.bot:
-        await event.edit("Apalah Apalah Njing.")
+        await event.edit("Apalah Apalah Buset.")
         return
-    await event.edit("`Proses Bentar Su...` 😡")
+    await event.edit("`Proses Bentar Sabar...` 😡")
     async with event.client.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -45,7 +45,7 @@ async def insta(event):
             await event.client.send_file(
                 event.chat_id,
                 response.message.media,
-                caption=f"@manusiarakitann 🐨",
+                caption=f"Selamat Menikmati",
             )
             await event.client.send_read_acknowledge(conv.chat_id)
             await bot(functions.messages.DeleteHistoryRequest(peer=chat, max_id=0))
