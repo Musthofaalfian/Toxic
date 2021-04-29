@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        " 🩸 **Pemilik** 🩸: [Anc📍ent](t.me/ancientbatavia) \n \n [B🩸T ANCIENT](https://github.com/Musthofaalfian/Toxic) \n \n \n 🐨**BOT-MIX**🐨 [Lord Koala](t.me/manusiarakitann) \n official: [Lord Userbot](t.me/LordUserbot_Group) \n   \n"
+        " 🩸 **Mix-Kampang** 🩸: [Ancient](t.me/ancientbatavia) \n \n [B🩸T ANCIENT](https://github.com/Musthofaalfian/Toxic) \n \n \n 🐨**BOT-MIX**🐨 [Lord Koala](t.me/manusiarakitann) \n official: [Belajar Userbot](t.me/belajaruserbot) \n   \n"
     )
 
 
