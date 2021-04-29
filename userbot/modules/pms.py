@@ -27,7 +27,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    "   **WELCOME IN THE HELL !!!!!**\n"
+    f"   **WELCOME IN THE HELL !!!!!**\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
     f" **Spam then You Get a BAN** {DEFAULTUSER} \n"
